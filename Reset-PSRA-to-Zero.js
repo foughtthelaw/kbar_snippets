@@ -1,3 +1,9 @@
+/**
+Reset PSRA to Zero
+Sets all spatial properties to 0 and resets scale and opacity on all selected layers in the active comp.
+Written By: Matthew Law
+*/
+
 (function(thisObj) {
 
     var scriptName = "Reset PSRA to 0"

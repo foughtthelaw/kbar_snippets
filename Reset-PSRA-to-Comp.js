@@ -1,3 +1,9 @@
+/**
+Reset PSRA to Comp Center
+Restores default settings to all selected layers in the active comp.
+Written By: Matthew Law
+*/
+
 (function(thisObj) {
 
     var scriptName = "Reset PSRA to Comp"
