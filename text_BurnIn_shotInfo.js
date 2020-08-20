@@ -16,7 +16,21 @@ Written By: Matthew Law
 		alert('This project needs to be saved first!');
 	} else {
 
-		var frameCounter = "var projName = thisProject.fullPath.split( \"/\" ).pop().slice( 0, -4 );\r\rvar compName = thisComp.name;\r\rvar currentFrameNum = timeToFrames();\rvar currentFrameStr = Math.abs( currentFrameNum ).toString();\rvar zeroPad = timeToFrames( thisComp.duration ).toString().length + 1;\r\rvar paddedFrameStr = currentFrameStr.padStart( zeroPad, \"0\" );\r\rif ( currentFrameNum < 0 ) {\r    paddedFrameStr = \"-\" + paddedFrameStr.slice( 1 );\r}\r\rvar burnInString = [\r    \"Project: \" + projName,\r    \"Comp: \" + compName,\r    \"Frame: \" + paddedFrameStr\r].join( \" // \" );\r\rburnInString;"
+		var frameCounter = "var projName = thisProject.fullPath.split( \"/\" ).pop().slice( 0, -4 );\r"+
+							"var compName = thisComp.name;\r"+
+							"var currentFrameNum = timeToFrames();\r"+
+							"var currentFrameStr = Math.abs( currentFrameNum ).toString();\r"+
+							"var zeroPad = timeToFrames( thisComp.duration ).toString().length + 1;\r"+
+							"var paddedFrameStr = currentFrameStr.padStart( zeroPad, \"0\" );\r"+
+							"if ( currentFrameNum < 0 ) {\r"+
+							"	    paddedFrameStr = \"-\" + paddedFrameStr.slice( 1 );\r"+
+						"}\r"+
+							"var burnInString = [\r"+
+								    "\"Project: \" + projName,\r"+
+							    "\"Comp: \" + compName,\r"+
+							    "\"Frame: \" + paddedFrameStr\r"+
+						"].join( \" // \" );\r"+
+							"burnInString;"
 
 		function addFooter(){
 			var footer = activeComp.layers.addText("Project Name // ");
