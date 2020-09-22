@@ -42,7 +42,7 @@ Written By: Matthew Law
 			fDocument.resetCharStyle();
 			fDocument.fontSize = 45;
 			fDocument.fillColor = [1, 1, 1];
-			fDocument.font = "Lyft Pro";
+			// fDocument.font = "";
 			fDocument.applyFill = true;
 			fDocument.justification = ParagraphJustification.LEFT_JUSTIFY;
 			fProp.setValue(fDocument);
@@ -60,7 +60,7 @@ Written By: Matthew Law
 			hDocument.resetCharStyle();
 			hDocument.fontSize = 45;
 			hDocument.fillColor = [1, 1, 1];
-			hDocument.font = "Lyft Pro";
+			// hDocument.font = "";
 			hDocument.applyFill = true;
 			hDocument.justification = ParagraphJustification.CENTER_JUSTIFY;
 			hProp.setValue(hDocument);
