@@ -4,6 +4,13 @@ A collection of bits of code I use almost daily via [Kbar](https://aescripts.com
 ## [Isolate Comps](https://github.com/foughtthelaw/kbar_snippets/blob/main/IsolateComps.js)
 Removes anything that isn't a CompItem from your selection in the Project Panel. This was written in a fit of frustration after the Nth time shift selecting comps in multiple folders and then attempting to double click to open them all or add to the render queue.
 
+## [Link Pins to Parent Shapes](https://github.com/foughtthelaw/kbar_snippets/blob/main/pins_to_shapes.js)
+Loops through the pins on a selected layer, creates a 50 pixel circular shape layer above each pin and then expression links the position of that pin to the shape.
+#### Known Issues:
+- Only works on a single mesh
+- Mesh must be explicityly named "Mesh 1"
+- color and size of shapes are hard coded.
+
 ## Extract [R](https://github.com/foughtthelaw/kbar_snippets/blob/main/Extract-red-channel.js)/[G](https://github.com/foughtthelaw/kbar_snippets/blob/main/Extract-green-channel.js)/[B](https://github.com/foughtthelaw/kbar_snippets/blob/main/Extract-blue-channel.js)Channel
 Script-ified version of a preset I use to manually do channel extractions. Fiddle with the histogram in Levels then chokes and blur till you've got something usable.
 
