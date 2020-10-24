@@ -32,6 +32,6 @@ I'm not a fan of having a massive solids folder at the end of a project. This cr
 
 Adds a "for review purposes only" watermark to the top of your comp and the Project File Name, Comp Name, and frame number to the bottom. For when you need a little help breaking in clients who aren't used to giving detailed notes on shots.
 
-##[Enable](https://github.com/foughtthelaw/kbar_snippets/blob/main/all_layers_3d_on.js) / [Disable](https://github.com/foughtthelaw/kbar_snippets/blob/main/all_layers_3d_off.js) all 3d Layers
+## [Enable](https://github.com/foughtthelaw/kbar_snippets/blob/main/all_layers_3d_on.js) / [Disable](https://github.com/foughtthelaw/kbar_snippets/blob/main/all_layers_3d_off.js) all 3d Layers
 
 Intended to be a means of squeezing fast previews out of the new real time 3d Fast Draft engine introduced in AE 17.5.0. all_layers_3d_on.js will turn all layer 3d switches to on and set the active viewer to `FAST DRAFT` mode. all_layers_3d_off.js will disable 3d on all layers and switch the active viewer's fast previews to `ADAPTIVE RESOLUTION`
