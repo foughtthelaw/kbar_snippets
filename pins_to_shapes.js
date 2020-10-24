@@ -1,3 +1,5 @@
+#target aftereffects
+
 (function () {
   var scriptName = "Link Puppet Pins to Parent Shapes";
 
