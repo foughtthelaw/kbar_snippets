@@ -6,15 +6,20 @@ A collection of bits of code I use almost daily via [Kbar](https://aescripts.com
 
 Removes anything that isn't a CompItem from your selection in the Project Panel. This was written in a fit of frustration after the Nth time shift selecting comps in multiple folders and then attempting to double click to open them all or add to the render queue.
 
+## [Layer Names to Comp Markers](https://github.com/foughtthelaw/kbar_snippets/blob/main/LayerNames-to-CompMarkers.js)
+
+Clears all Comp Markers and replaces them with Comp Markers derived from the names of all selected layers.
+
 ## [Link Pins to Parent Shapes](https://github.com/foughtthelaw/kbar_snippets/blob/main/pins_to_shapes.js)
 
 Loops through the pins on a selected layer, creates a 50 pixel circular shape layer above each pin and then expression links the position of that pin to the shape.
 
 #### Known Issues:
-
+```
 - Only works on a single mesh
 - Mesh must be explicitly named "Mesh 1"
 - color and size of shapes are hard coded.
+```
 
 ## Extract [R](https://github.com/foughtthelaw/kbar_snippets/blob/main/Extract-red-channel.js)/[G](https://github.com/foughtthelaw/kbar_snippets/blob/main/Extract-green-channel.js)/[B](https://github.com/foughtthelaw/kbar_snippets/blob/main/Extract-blue-channel.js)Channel
 

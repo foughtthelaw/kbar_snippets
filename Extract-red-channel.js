@@ -31,5 +31,3 @@ Written By: Matthew Laws
         selectedLayers[i].property("ADBE Effect Parade").addProperty("CC Composite");
     };
     app.endUndoGroup();
-
-})(this);
