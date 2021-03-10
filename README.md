@@ -40,3 +40,7 @@ Adds a "for review purposes only" watermark to the top of your comp and the Proj
 ## [Enable](https://github.com/foughtthelaw/kbar_snippets/blob/main/all_layers_3d_on.js) / [Disable](https://github.com/foughtthelaw/kbar_snippets/blob/main/all_layers_3d_off.js) all 3d Layers
 
 Intended to be a means of squeezing fast previews out of the new real time 3d Fast Draft engine introduced in AE 17.5.0. all_layers_3d_on.js will turn all layer 3d switches to on and set the active viewer to `FAST DRAFT` mode. all_layers_3d_off.js will disable 3d on all layers and switch the active viewer's fast previews to `ADAPTIVE RESOLUTION`
+
+## [Toggle Multi Frame Rendering](https://github.com/foughtthelaw/kbar_snippets/blob/main/MFR_Toggle.js)
+
+Starting w/ the [public beta of v18.1.0.21](https://blog.adobe.com/en/publish/2021/03/10/multi-frame-rendering-now-in-after-effects-beta.html) After Effects added true concurrent frame rendering for file exports. While amazing when needed for heavy renders it can slow down projects with many small light weight renders. This acts as an easy On/Off switch rather than digging into the app prefs dialog every time you need to change the setting.
