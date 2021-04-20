@@ -10,6 +10,10 @@ Removes anything that isn't a CompItem from your selection in the Project Panel.
 
 Clears all Comp Markers and replaces them with Comp Markers derived from the names of all selected layers.
 
+## [Layer Names from First Layer Marker](https://github.com/foughtthelaw/kbar_snippets/blob/main/LayerNames-from-FirstLayerMarker.js)
+
+Assigns the comment from the first marker on a selected layer to that layers name.
+
 ## [Link Pins to Parent Shapes](https://github.com/foughtthelaw/kbar_snippets/blob/main/pins_to_shapes.js)
 
 Loops through the pins on a selected layer, creates a 50 pixel circular shape layer above each pin and then expression links the position of that pin to the shape.
