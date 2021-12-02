@@ -6,6 +6,10 @@ A collection of bits of code I use almost daily via [Kbar](https://aescripts.com
 
 Removes anything that isn't a CompItem from your selection in the Project Panel. This was written in a fit of frustration after the Nth time shift selecting comps in multiple folders and then attempting to double click to open them all or add to the render queue.
 
+## [Print Missing Footage Paths](https://github.com/foughtthelaw/kbar_snippets/blob/main/PrintMissingFootagePaths.js)
+
+Loops through all project items and creates a `MISSING_FOOTAGE.json` on your desktop.
+
 ## [Layer Names to Comp Markers](https://github.com/foughtthelaw/kbar_snippets/blob/main/LayerNames-to-CompMarkers.js)
 
 Clears all Comp Markers and replaces them with Comp Markers derived from the names of all selected layers.
