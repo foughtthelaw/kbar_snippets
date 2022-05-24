@@ -8,6 +8,10 @@ If you're want to use this but aren't a regular git person click the green `Code
 
 Removes anything that isn't a CompItem from your selection in the Project Panel. This was written in a fit of frustration after the Nth time shift selecting comps in multiple folders and then attempting to double click to open them all or add to the render queue.
 
+## [Remove Unused Comps](https://github.com/foughtthelaw/kbar_snippets/blob/main/RemoveUnusedCompsFromSelection.js)
+
+Goes through all selected items in the project panel and deletes only the comps that aren't referenced in other comps. Not great on your final export comps but super handy when you've got tons of redundant comps because of something like True Comp Duplicator.
+
 ## [Print Missing Footage Paths](https://github.com/foughtthelaw/kbar_snippets/blob/main/PrintMissingFootagePaths.js)
 
 Loops through all project items and creates a `MISSING_FOOTAGE.json` on your desktop.
