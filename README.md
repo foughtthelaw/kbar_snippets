@@ -6,7 +6,7 @@ If you're want to use this but aren't a regular git person click the green `Code
 
 ## [Reveal Project In Finder](https://github.com/foughtthelaw/kbar_snippets/blob/main/RevealProjectInFinder.js)
 
-Does what it says on the tin. Opens the system file browser to the folder that contains the currently open project file.
+Does what it says on the tin. Opens the system file browser to the folder that contains the currently open project file and selects said file.
 
 ## [Isolate Comps](https://github.com/foughtthelaw/kbar_snippets/blob/main/IsolateComps.js)
 
