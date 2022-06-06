@@ -4,6 +4,10 @@ A collection of bits of code I use almost daily via [Kbar](https://aescripts.com
 
 If you're want to use this but aren't a regular git person click the green `Code` button top right and look for the `Download Zip` option.
 
+## [Reveal Project In Finder](https://github.com/foughtthelaw/kbar_snippets/blob/main/RevealProjectInFinder.js)
+
+Does what it says on the tin. Opens the system file browser to the folder that contains the currently open project file.
+
 ## [Isolate Comps](https://github.com/foughtthelaw/kbar_snippets/blob/main/IsolateComps.js)
 
 Removes anything that isn't a CompItem from your selection in the Project Panel. This was written in a fit of frustration after the Nth time shift selecting comps in multiple folders and then attempting to double click to open them all or add to the render queue.
