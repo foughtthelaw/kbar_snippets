@@ -5,7 +5,7 @@
       var f = app.project.file.parent.fullName;
       var os = $.os;
       if (os.split(" ")[0] == "Macintosh") {
-        system.callSystem("open " + f);
+        system.callSystem("open -R" + f);
       } else {
         system.callSystem('cmd.exe /c "explorer.exe /select,' + f + '"');
       }
