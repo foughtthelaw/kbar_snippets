@@ -62,3 +62,7 @@ Intended to be a means of squeezing fast previews out of the new real time 3d Fa
 ## [Toggle Multi Frame Rendering](https://github.com/foughtthelaw/kbar_snippets/blob/main/MFR_Toggle.js)
 
 Starting w/ the [public beta of v18.1.0.21](https://blog.adobe.com/en/publish/2021/03/10/multi-frame-rendering-now-in-after-effects-beta.html) After Effects added true concurrent frame rendering for file exports. While amazing when needed for heavy renders it can slow down projects with many small light weight renders. This acts as an easy On/Off switch rather than digging into the app prefs dialog every time you need to change the setting.
+
+## [Track Matte Buttons](https://github.com/foughtthelaw/kbar_snippets/blob/main/matte_scriptlets.js)
+
+[AE Public Beta v23.0.0.37 added API updates for the new Track Matte workflow](https://community.adobe.com/t5/after-effects-beta-discussions/new-scripting-api-for-selectable-track-matte-layers/m-p/13161305/thread-id/2271). These functions can easily be assigned to a single button w/ different modifier keys. In fact...that's what I did [here](https://www.dropbox.com/s/yhny8uw9i27c9ee/Matte_Butttons-20220826.kbar?dl=1). `Compatible with Kbar 3`
