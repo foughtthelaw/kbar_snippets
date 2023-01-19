@@ -20,6 +20,10 @@ Goes through all selected items in the project panel and deletes only the comps 
 
 Loops through all project items and creates a `MISSING_FOOTAGE.json` on your desktop.
 
+## [Reload all footage in Comp/Project]()
+
+Snippets for reloading all footage items found in a given comp / project / project selection. I find this useful for quick turn 3d work where you're making changes and rendering over existing image sequences frequently.
+
 ## [Layer Names to Comp Markers](https://github.com/foughtthelaw/kbar_snippets/blob/main/LayerNames-to-CompMarkers.js)
 
 Clears all Comp Markers and replaces them with Comp Markers derived from the names of all selected layers.
@@ -66,3 +70,7 @@ Starting w/ the [public beta of v18.1.0.21](https://blog.adobe.com/en/publish/20
 ## [Track Matte Buttons](https://github.com/foughtthelaw/kbar_snippets/blob/main/matte_scriptlets.js)
 
 [AE Public Beta v23.0.0.37 added API updates for the new Track Matte workflow](https://community.adobe.com/t5/after-effects-beta-discussions/new-scripting-api-for-selectable-track-matte-layers/m-p/13161305/thread-id/2271). These functions can easily be assigned to a single button w/ different modifier keys. In fact...that's what I did [here](https://www.dropbox.com/s/yhny8uw9i27c9ee/Matte_Butttons-20220826.kbar?dl=1). `Compatible with Kbar 3`
+
+## [Select Matted Layers]()
+
+Takes a given layer and then selects all the layers referencing the given layer as a track matte. for AE v23 or later. Currently only supports 1 input layer.
